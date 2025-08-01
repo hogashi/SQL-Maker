@@ -533,7 +533,7 @@ $condition should be instance of L<SQL::Maker::Condition>.
 
 =item C<< $stmt->add_order_by('foo'); >>
 
-=item C<< $stmt->add_order_by({'foo' => 'DESC'}); >>
+=item C<< $stmt->add_order_by('foo' => 'DESC'); >>
 
 Add a new ORDER BY clause.
 
